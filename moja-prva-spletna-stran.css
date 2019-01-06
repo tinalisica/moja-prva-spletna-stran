@@ -1,6 +1,11 @@
- /* Style all font awesome icons */
+/* HEADER*/ 
+
+/* fa override*/
 .fa {
-  
+  padding: 13px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4em;
 }
 
 /* Add a hover effect if you want */
@@ -18,14 +23,14 @@ ul {
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 16px;
   text-decoration: none;
 }
 
@@ -34,6 +39,8 @@ li a:hover {
   background-color: #111;
 }
 
+
+/* BODY*/
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -49,3 +56,5 @@ li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* FOOTER*/
